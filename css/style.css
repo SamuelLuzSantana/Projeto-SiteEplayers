@@ -11,6 +11,10 @@
 
 }
 
+#bars-menu{
+    display: none;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -20,20 +24,82 @@
 
 body{
     background-color: var(--background);
+    font-family: var(--font);
+    font-size: 20px;
 }
 
-@media screen and (max-width:1199px){
+img{
+    width: 100%;
+}
+
+.topo{
+    width: 100%;
+    height: 4em;
+    /* background-color: rgb(149, 226, 6); */
+}
+
+.topo img{
+    
+    max-width: 16em;
+}
+
+.content{
+    /* background: aqua; */
+    width: 100%;
+    max-width: 64em;
+    height: 100%;
+    
+    margin: auto;
+}
+
+.links{
+    width: 100%;
+    max-width: 36em;
+}
+
+.links ul{
+    list-style-type: none;
+   
+}
+
+.links a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase ;
+    font-weight: 500;
+    font-size: 1em;
+    padding: 1.22em;
+}
+
+.links a:hover{
+    background-color: var(--red);
+    text-decoration: underline;
+}
+
+.flex-center{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* até 1199px */
+@media screen and (max-width:74.93em){
 
 }
 
-@media screen and (max-width:991px){
+/* Até 991px */
+@media screen and (max-width:61.93em){
+   
+    body{
+        background-color: var(--red);
+    }
+}
+
+/* até 767px */
+@media screen and (max-width:47.93em){
     
 }
 
-@media screen and (max-width:767px){
-    
-}
-
-@media screen and (max-width:576px){
+/* até 576px */
+@media screen and (max-width:36em){
     
 }
