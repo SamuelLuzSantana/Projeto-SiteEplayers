@@ -25,7 +25,7 @@
 body{
     background-color: var(--background);
     font-family: var(--font);
-    font-size: 20px;
+    font-size: 16px;
 }
 
 img{
@@ -116,11 +116,11 @@ img{
 }
 
 .banner-text h1{
-    font-size: 5.62em;
+    font-size: 4.62em;
 }
 
 .banner-text p{
-    font-size: 1.85em;
+    font-size: 1.5em;
 }
 
 .banner-text a{
@@ -143,7 +143,12 @@ img{
 
 .games{
     width: 100%;
-    height: 7.5em;
+    height: 6.5em;
+}
+
+.games img{
+    max-height: 65px;
+    max-width: 150px;
 }
 
 .games ul{
