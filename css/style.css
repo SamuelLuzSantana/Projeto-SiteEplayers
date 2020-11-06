@@ -89,9 +89,9 @@ img{
 }
 
 .banner-container{
-/*     background-color: #aa0baa85;
- */    width: 100%;
-    height: 37.5em;
+    background-color: #aa0baa85;
+    width: 100%;
+    height: 56.6em;
     position: absolute;
     top: 0;
 }
@@ -318,7 +318,7 @@ img{
 /* SEÇÂO NOTÍCIAs */
  
 .noticias{
-    height: 130vh;
+    height: 61.45em;
     width: 100%;
     background: linear-gradient(353deg, rgba(31,27,27,1) 11%, rgba(16,29,66,1) 49%, rgba(6,18,51,1) 93%);}
 
@@ -338,7 +338,7 @@ img{
 
 .cards{
     /* background-color: blue; */
-    height: 125vh;
+    height: 100%;
     width: 100%;
     display: flex;
     margin: auto 0px;
@@ -349,7 +349,7 @@ img{
 .out-card{
    /*  background-color: #ff00f260; */
     height: 100%;
-    width: 51em;
+    /* width: ; */
    
 }
 
@@ -525,22 +525,30 @@ img{
 }
 
 
+
+
+
+
+
 /* ATÉ 1440 (feito) */
 @media screen and (max-width:1440px){
    
-    .noticias{
-        height: 160vh;
+    .noticias {
+        height: 61.428em;
         width: 100%;
         background: linear-gradient(353deg, rgba(31,27,27,1) 11%, rgba(16,29,66,1) 49%, rgba(6,18,51,1) 93%);
-    } 
+    }
 
+    .banner-container{
+        height: 42.6em;
+    }
 }
 
 /* ATÉ 1199 (feito)*/
 @media screen and (max-width:1199px){
    
     .noticias{
-        height: 160vh;
+        height: 61.42em;
         width: 100%;
         background: linear-gradient(353deg, rgba(31,27,27,1) 11%, rgba(16,29,66,1) 49%, rgba(6,18,51,1) 93%);
     }
@@ -552,7 +560,7 @@ img{
 
 
     .noticias{
-        height: 160vh;
+        height: 61.42em;
         width: 100%;
         background: linear-gradient(353deg, rgba(31,27,27,1) 11%, rgba(16,29,66,1) 49%, rgba(6,18,51,1) 93%);
     }
@@ -691,6 +699,10 @@ img{
         margin: 20px;
     }
 
+    .noticias{
+        height: 57.42em;
+    }
+
 }
 
 /* até 576px */
@@ -746,6 +758,12 @@ img{
         display: none;
     }
 
+    .noticias {
+        height: 61em;
+        width: 100%;
+        background: linear-gradient(353deg, rgba(31,27,27,1) 11%, rgba(16,29,66,1) 49%, rgba(6,18,51,1) 93%);
+    }
+
     .noticias h2{
         text-align: center;
     }
@@ -778,6 +796,9 @@ img{
         height: 18em;
     }
 
+    .games img{
+        max-width: 6.5em;
+    }
 
     .banner-content{
        /*  background-color: #7fffd47d; */
