@@ -25,7 +25,7 @@
 body{
     background-color: var(--background);
     font-family: var(--font);
-    font-size: 16px;
+    font-size: 14px;
 }
 
 img{
@@ -138,6 +138,8 @@ img{
     transform: scale(1.2);
     transition: 0.3s;
 }
+
+/* INICIO ESTILIZAÇÃO JOGOS */
 
 .games{
     width: 100%;
@@ -261,9 +263,7 @@ img{
 
 /* Games ao vivo */
 
-.games .content{
-    /* background-color: blue; */
-}
+
 
 .aovivo, .embreve{
     display: flex;
@@ -318,10 +318,9 @@ img{
 /* SEÇÂO NOTÍCIAs */
  
 .noticias{
-    height: 140vh;
+    height: 130vh;
     width: 100%;
     background: linear-gradient(353deg, rgba(31,27,27,1) 11%, rgba(16,29,66,1) 49%, rgba(6,18,51,1) 93%);}
-
 
 
 .conteudo-noticias{
@@ -334,6 +333,7 @@ img{
     color: #fff;
     font-size: 35px;
     text-transform: capitalize;
+    margin: 1em 0px 0.5em 0px;
 }
 
 .cards{
@@ -348,7 +348,7 @@ img{
 
 .out-card{
    /*  background-color: #ff00f260; */
-    height: 80%;
+    height: 100%;
     width: 51em;
    
 }
@@ -382,9 +382,7 @@ img{
     flex-direction: column;
 }
 
-.img-bloco{
 
-}
 
 .text-box{
     color: white;
@@ -394,7 +392,7 @@ img{
 
 .tabela{
     width: 20%;
-    height: 100%;
+    height: 48.8em;
 }
 
 .tabela-news {
@@ -402,6 +400,7 @@ img{
     height: 98%;
     background: linear-gradient(180deg, rgba(0,0,0,1) 32%, rgb(31, 29, 29) 70%);    box-shadow: 1px 1px 20px 4px #000000;
     justify-content: space-between;
+    align-items: center;
     color: #fff;
     text-align: center;
 }
@@ -412,6 +411,7 @@ img{
     color: #fff;
     flex-direction: column;
     align-items: center;
+    justify-content: space-around;
     justify-content: center;
     padding: 10px 0px;
 }
@@ -508,25 +508,283 @@ img{
     color: var(--red);
 }
 
-/* até 1199px */
-@media screen and (max-width:74.93em){
+.blue{
+    /* background: aqua; */
+    width: 100%;
+    max-width: 68em;
+    height: 100%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.games2{
+    width: 100%;
+    height: 7em;
+}
+
+
+/* ATÉ 1440 (feito) */
+@media screen and (max-width:1440px){
+   
+    .noticias{
+        height: 160vh;
+        width: 100%;
+        background: linear-gradient(353deg, rgba(31,27,27,1) 11%, rgba(16,29,66,1) 49%, rgba(6,18,51,1) 93%);
+    } 
 
 }
 
-/* Até 991px */
-@media screen and (max-width:61.93em){
+/* ATÉ 1199 (feito)*/
+@media screen and (max-width:1199px){
    
-    body{
-        background-color: var(--red);
+    .noticias{
+        height: 160vh;
+        width: 100%;
+        background: linear-gradient(353deg, rgba(31,27,27,1) 11%, rgba(16,29,66,1) 49%, rgba(6,18,51,1) 93%);
     }
 }
 
-/* até 767px */
-@media screen and (max-width:47.93em){
+
+/* até 1140px (feito) */
+@media screen and (max-width: 1140px){
+
+
+    .noticias{
+        height: 160vh;
+        width: 100%;
+        background: linear-gradient(353deg, rgba(31,27,27,1) 11%, rgba(16,29,66,1) 49%, rgba(6,18,51,1) 93%);
+    }
+
+    .conteudo-noticias h2{
+       margin: 1em 0px 0.5em 0px;
+    }
+
+    .cards {
+        margin: 0px;
+    }
+
+    .tabela-news{
+        height: 47.8em;
+    }
+
+
+}
+
+
+/* Até 991px (feito) */
+@media screen and (max-width:991px){
+
+
+    .banner-container {
+        /* background-color: #aa0baa85; */
+        width: 100%;
+        height: 30.5em;
+        position: absolute;
+        top: 0;
+    }
+
+
     
+
+}
+
+/* até 767px (feito)*/
+@media screen and (max-width:768px){
+    
+    .topo img{
+        max-width: 14em;
+    }
+
+
+    .banner-content {
+        align-content: center;
+        width: 80%;
+        height: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .banner-text {
+        /* background-color: #2ebb496e; */
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: #fff;
+    }
+
+    .banner-container {
+        background-color: #130813ad;
+        width: 100%;
+        height: 22.857em;
+        position: absolute;
+        top: 0;
+    }
+
+    .banner-text h1{
+        font-size: 3.5em;
+    }
+    
+    .banner-text p{
+        font-size: 1em;
+    }
+    
+    .banner-text a{
+        color: #fff;
+        text-decoration: none;
+        padding: 0.5em 1.5em;
+        margin-top: 30px;
+        background-color: var(--red);
+        border-radius: 0.8em;
+        font-size: 1.7em;
+    }
+
+ 
+    .games{
+        width: 100%;
+        height: 7em;
+    }
+    
+    .games img{
+        max-height: 65px;
+        max-width: 8.4em;
+    }
+    
+
+    .content-about img{
+        display: none;
+        height: 100%;
+    }
+
+    .text-about {
+        width: 80%;
+        text-align: justify;
+        margin: 10%;
+    }
+
+    .embreve{
+       margin: 0px  50px 0px 0px;
+    }
+
+    .aovivo{
+        margin: 0px  0px 0px 50px;
+    }
+
+    .some{
+        display: none;
+    }
+
+    .tabela{
+        display: none;
+    }
+
+    .out-card{
+        margin: auto;
+    }
+
+    .conteudo-noticias h2{
+        margin: 20px;
+    }
+
 }
 
 /* até 576px */
-@media screen and (max-width:36em){
+@media screen and (max-width:576px){
     
+    .aovivo::after {
+        display: none;
+        margin: 0em;
+    }
+
+    
+
+    .aovivo, .embreve{
+        margin: 15px 0px;
+        border-top: solid 2px #fff;
+        border-bottom: solid 2px #fff;
+    }
+
+    .aovivo{
+        width: 321px;
+    }
+
+    .blue{
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .cards{
+        justify-content: center;
+    }
+
+    .out-card{
+        justify-content: center;
+        width: 500px;
+    }
+
+    .games2{
+        height: 16.5em;
+    }
+    .cards1{
+        margin-bottom: 3em;
+    }
+    
+   .cards1, .cards2{
+       width: auto;
+       justify-content: space-between;
+       
+   }
+
+
+    .some2{
+        display: none;
+    }
+
+    .noticias h2{
+        text-align: center;
+    }
+    
+
+
+    .footer-img img {
+        max-width: 10em;
+    }
+
+    .footer-img p {
+    font-size: 1em;
+    }
+
+    .footer {
+        width: 100%;
+        height: 11em;
+    }
+
+    .banner-container{
+        /* background-color: #faebd77a; */
+        height: 17.14em;
+    }
+
+    .banner-content{
+       /*  background-color: #7fffd47d; */
+        width: 70%;
+    }
+
+    .banner-text{
+        width: auto;
+    }
+
+    .content-about{
+        width: 90%;
+
+    }
+
+    .text-about {
+        margin: 8%;
+    }
 }
