@@ -767,8 +767,17 @@ img{
 
     .banner-container{
         /* background-color: #faebd77a; */
-        height: 17.14em;
+        height: 18em;
     }
+
+    .banner{
+        height: 18em;
+    }
+
+    .banner img{
+        height: 18em;
+    }
+
 
     .banner-content{
        /*  background-color: #7fffd47d; */
@@ -787,4 +796,11 @@ img{
     .text-about {
         margin: 8%;
     }
+
+    /* #bars-menu{
+        display: inline;
+    } */
+
+    
+
 }
