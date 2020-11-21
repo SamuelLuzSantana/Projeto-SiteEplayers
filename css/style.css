@@ -541,6 +541,7 @@ img{
 
     .banner-container{
         height: 42.6em;
+        background-color: none;
     }
 }
 
